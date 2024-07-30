@@ -9,6 +9,6 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     body{
-        background-color: hsl(225, 21%, 49%);
+        background-color: ${(prop) => prop.theme.backgroundBody};
     }
 `
