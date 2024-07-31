@@ -31,6 +31,7 @@ export const CustomCheckbox = styled.div`
         display: inline-block;
         vertical-align: middle;
         transition: all 200ms;
+        cursor: pointer;
     }
 
     & input:checked + label:before{
