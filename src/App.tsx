@@ -1,13 +1,18 @@
-import { GlobalStyle } from "./global"
+import { Container, GlobalStyle } from "./global"
 import { ThemeProvider } from "styled-components"
 import whiteTheme from "./themes/white"
+import Header from "./containers/header/Header"
 
 function App() {
 
   return (
    <ThemeProvider theme={whiteTheme}>
     <GlobalStyle/>
-    <h1>oi</h1>
+
+    <Container>
+      <Header/>
+    </Container>
+
    </ThemeProvider>
   )
 }
