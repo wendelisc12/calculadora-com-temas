@@ -14,7 +14,7 @@ const whiteTheme = {
     keyEqualShadow: 'hsl(25, 99%, 27%)',
 
     textKeys:'hsl(221, 14%, 31%)',
-    textDisplay: '#fff',
+    textDisplay: 'hsl(221, 14%, 31%)',
     textEqual: '#fff'
 }
 
