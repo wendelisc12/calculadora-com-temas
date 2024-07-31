@@ -10,16 +10,20 @@ export const GlobalStyle = createGlobalStyle`
 
     body{
         background-color: ${(prop) => prop.theme.backgroundBody};
+        overflow-y: hidden;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 `
 
 export const Container = styled.div`
-    max-width: 1080px;
+    max-width: 1000px;
     width: 100%;
-    margin: 0 auto;
-    padding: 80px 0;
 
     @media (max-width: 767px) {
-        width: 85%;
+        width: 100%;
+        max-width: 380px;
     }
 `
