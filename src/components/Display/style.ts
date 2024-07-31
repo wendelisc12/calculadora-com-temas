@@ -18,6 +18,7 @@ export const DisplayContainer = styled.input`
     font-size: 4em;
     text-align: right;
     font-weight: bold;
+    width: 100%;
     color: ${(prop)=> prop.theme.textDisplay};
     border: 0;
     background-color: transparent;
