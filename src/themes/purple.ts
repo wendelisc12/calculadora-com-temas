@@ -14,7 +14,7 @@ const purpleTheme = {
     keyEqualShadow: 'hsl(177, 92%, 70%)',
 
     textKeys:'hsl(52, 100%, 62%)',
-    textDisplay: '#fff',
+    textDisplay: 'hsl(52, 100%, 62%)',
     textEqual: 'hsl(198, 20%, 13%)'
 }
 

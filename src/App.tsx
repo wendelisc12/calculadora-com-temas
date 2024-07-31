@@ -3,8 +3,9 @@ import { ThemeProvider } from "styled-components"
 import whiteTheme from "./themes/white"
 import blueTheme from "./themes/blue"
 import purpleTheme from "./themes/purple"
-import Header from "./containers/header/Header"
+import Header from "./containers/Header/Header"
 import { useState } from "react"
+import Calculadora from "./containers/Calculadora/Calculadora"
 
 function App() {
   const [tema, setTema] = useState(whiteTheme)
@@ -19,6 +20,7 @@ function App() {
 
     <Container>
       <Header temaEscolhido={temaEscolhido}/>
+      <Calculadora />
     </Container>
 
    </ThemeProvider>
