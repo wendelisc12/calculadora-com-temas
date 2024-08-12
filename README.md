@@ -8,6 +8,7 @@ Esse projeto serviu de aprendizado para a técnica css in js com styled componen
 
 - Linguagem de Programação: Typescript
 - Frameworks: React, Vite
+- Bibliotecas: styled-components
 
 ## Instalação
 ```shell
